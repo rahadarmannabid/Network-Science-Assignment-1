@@ -18,27 +18,20 @@ You can run all the notebook in jupyter notebook. Some code may give error in ma
   
 ## Problem Description
 
-Problem 1. [Visualizing a Multilayer Network] In this exercise your job is to visualize a 3-layer course network, 
-where  nodes  represent  students,  and  each  layer  corresponds  to  a  single  topic  network  representing  one  type  of 
-relationship among students taking this course (e.g. in layer 1 nodes representing two students should be connected 
-if both students took a Data Mining/Machine Learning course). Note: you need to convert row data to graph format 
-edge list or matrix, .csv or .txt format should be fine. Make a screenshot of your visualized networks. 
+Download Amazon product dataset from  http://snap.stanford.edu/data/com-Amazon.html, and  
+compute: 
+<br>
+a)  the size of the network largest connected component,  
+b)  the number of connected components,  
+c) degree distribution,  
+d)  path length and  
+e)  clustering coefficient.  
  
-Problem 2. [Visualizing a Weighted Network] Visualize a network obtained by projecting the 3-layer network 
-from Problem 1 to a single-layer weighted network, where two students are linked by a weighted edge representing 
-the number of topics both students took. 
- 
-Problem 3. [Visualization of a Bipartite Network] Visualize a bipartite students-topics network where an edge 
-between a student node and a topic node exists if and only if this student has taken a course on that topic.
+All metrics can be calculated using Python library NetworkX, but you can  use any specialized 
+freely  available  packages  to  compute  these  properties,  or  you  develop  your  own  code.  Use 
+visual  displays  (graphs/plots  generated  in a  software  of  your  choice,  e.g. gnuplot)  for  a  clear 
+presentation.  
 
-Problem  4.  [Computing  Global  Network  Properties]  For  each  layer  of  the  3-layer  network  constructed  in 
-Problem 1 compute and explain the following global network properties: 
-a) the size and diameter of the network largest connected component  
-b) degree distribution (you can report average degree distribution or plot degree distribution histogram) 
-c) average path length 
-d) average clustering coefficient 
-Repeat this for the network constructed in Problem 2. Compare between properties of each layer and aggregated 
-network in Problem 2.
 
 ## Contributors ✨
 This repository is for personal use of Rahad Arman Nabid. But if you have any question about network science graph visualization please mail to ran.nabid@gmail.com. Cheers!
